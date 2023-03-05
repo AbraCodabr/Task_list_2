@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Первый блок*/
+.greeting {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px 10px;
+}
+
+.greeting .button_exit {
+  padding: 3px 20px;
+  color: azure;
+  background-color: black;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.container {
+  width: 330px;
+}
+
+.container h3 {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(192, 187, 187);
+}
+
+.form {
+  padding: 10px 10px 3px 10px;
+}
+
+.form .ad {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.form .enter_text {
+  padding: 3px;
+  border-radius: 0px;
+}
+.form .add_task {
+  padding: 3px 20px;
+  color: azure;
+  background-color: black;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.form .all {
+  padding: 5px 10px;
+  font-weight: 700;
+}
+
+.button_all {
+  display: flex;
+  border-bottom: 1px solid rgb(192, 187, 187);
+  padding-bottom: 10px;
+}
+
+.button_all .button_content {
+  padding: 3px 8px;
+  margin-left: 5px;
+}
+
+/* Второй блок  */
+.container .content {
+  padding: 10px;
+  border-bottom: 1px solid rgb(192, 187, 187);
+}
+
+.container .content p {
+  padding-left: 10px;
+}
+
+.button {
+  padding-top: 10px;
+  display: flex;
+}
+
+.button form {
+  padding-left: 10px;
+}
+
+.circle_red {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgb(222, 24, 24);
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 240px;
+}
+
+.circle_green {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgb(47, 245, 7);
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 240px;
+}
+
+.button_content {
+  padding: 3px 15px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
